@@ -14,7 +14,7 @@ namespace Uppgift_212
             int intDagar = int.Parse(strDagar);
             int intSträcka = int.Parse(strSträcka);
 
-            int Summa = 300 + intDagar * 500 + intSträcka * 1;
+            int Summa = 300 + intDagar * 500 + intSträcka * 1 - 500;
 
             Console.WriteLine("Det kommer kosta dig " + Summa + "kr");
         }
